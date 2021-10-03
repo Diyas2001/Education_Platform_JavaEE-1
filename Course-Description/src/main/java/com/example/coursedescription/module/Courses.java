@@ -1,4 +1,4 @@
-package com.example.studentinformation.module;
+package com.example.coursedescription.module;
 
 import lombok.*;
 
@@ -8,6 +8,7 @@ import lombok.*;
 @Setter
 @Data
 public class Courses {
+
     private Long id;
     private String courseName;
     private Double rating;
